@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Kite Motion Dataset Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application for generating synthetic kite motion datasets with realistic statistical properties for machine learning and data analysis.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+Visit the live application: [Kite Motion Dataset Generator](https://surajsk2003.github.io/Kite-Motion-Dataset-Generator)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Generate synthetic kite motion datasets with configurable row counts
+- Statistical properties based on real-world kite flight data
+- Download generated datasets as CSV files
+- Interactive UI with dataset preview
+- Parameter statistics visualization
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Dataset Parameters
 
-### `npm test`
+The generator includes the following parameter types:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Base Parameters**: Yaw, Pitch, Roll, Altitude, Latitude, Longitude, Calibration values, Wind speed
+- **Synthetic Parameters**: Temperature, Humidity, Pressure, and other environmental factors
 
-### `npm run build`
+## How It Works
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application uses the Box-Muller transform to generate normally distributed values with statistical properties (mean, standard deviation, min, max) derived from real kite motion data. Values are clipped to maintain realistic bounds.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React.js
+- CSS with modern animations and responsive design
+- Lucide React for icons
 
-### `npm run eject`
+## Local Development
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository
+```
+git clone https://github.com/surajsk2003/Kite-Motion-Dataset-Generator.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies
+```
+cd kite-dataset-generator
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Start the development server
+```
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Build for production
+```
+npm run build
+```
 
-## Learn More
+## Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The application is deployed using GitHub Pages. To deploy updates:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm run deploy
+```
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT
