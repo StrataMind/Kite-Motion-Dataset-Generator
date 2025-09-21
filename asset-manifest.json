@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Kite-Motion-Dataset-Generator/static/css/main.88215ab3.css",
+    "main.js": "/Kite-Motion-Dataset-Generator/static/js/main.b4b8c708.js",
+    "static/js/453.9e41b498.chunk.js": "/Kite-Motion-Dataset-Generator/static/js/453.9e41b498.chunk.js",
+    "index.html": "/Kite-Motion-Dataset-Generator/index.html",
+    "main.88215ab3.css.map": "/Kite-Motion-Dataset-Generator/static/css/main.88215ab3.css.map",
+    "main.b4b8c708.js.map": "/Kite-Motion-Dataset-Generator/static/js/main.b4b8c708.js.map",
+    "453.9e41b498.chunk.js.map": "/Kite-Motion-Dataset-Generator/static/js/453.9e41b498.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88215ab3.css",
+    "static/js/main.b4b8c708.js"
+  ]
+}
