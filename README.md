@@ -4,7 +4,7 @@ A web application for generating synthetic kite motion datasets with realistic s
 
 ## Live Demo
 
-Visit the live application: [Kite Motion Dataset Generator](https://surajsk2003.github.io/Kite-Motion-Dataset-Generator)
+Visit the live application: [Kite Motion Dataset Generator](https://stratamind.github.io/Kite-Motion-Dataset-Generator)
 
 ## Features
 
@@ -35,7 +35,7 @@ The application uses the Box-Muller transform to generate normally distributed v
 
 1. Clone the repository
 ```
-git clone https://github.com/surajsk2003/Kite-Motion-Dataset-Generator.git
+git clone https://github.com/StrataMind/Kite-Motion-Dataset-Generator.git
 ```
 
 2. Install dependencies
